@@ -41,7 +41,7 @@ setup(
     long_description=readme,
     author="Beth Signal",
     author_email='beth.signal@gmail.com',
-    url='https://github.com/betsig/how_are_we_stranded_here',
+    url='https://github.com/zoomzoom1011/how_are_we_stranded_here',
     python_requires='>={}'.format('.'.join(str(n) for n in min_version)),
     packages=find_packages(exclude=['docs', 'tests']),
     entry_points={
