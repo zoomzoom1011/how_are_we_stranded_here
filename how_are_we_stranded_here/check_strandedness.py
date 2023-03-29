@@ -191,6 +191,8 @@ def main():
         read_len_median_ss = median(read_lengths)
         read_len_sd_ss = stdev(read_lengths)
         if read_len_sd_ss == 0: read_len_sd_ss = 1
+        print(f"MedianReadLength:{read_len_median_ss}")
+        print(f"StddevReadLength:{read_len_sd_ss}")
 
     # align with kallisto
     print('quantifying with kallisto')
